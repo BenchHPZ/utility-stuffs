@@ -29,4 +29,4 @@ Donde `<file>` es el archivo de entrada y `<o_file>`  es el parametro opcional q
 Desde _python_ únicamente se necesita importar la función `trim_file` de `PDFtrimm`. Esta necesita dos parametros y tiene uno opcional
  - `i_name` El nombre de archivo de entrada
  - `o_name` El nombre del archivo de salida
- - `reverse` Parametro de orden del ciclo [opcional].
+ - `reverse` Parametro de orden del ciclo _[opcional]_.
