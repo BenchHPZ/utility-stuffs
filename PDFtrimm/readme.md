@@ -15,7 +15,7 @@ Trate de programar dos maneras para usar este programa, mediante la termial y de
 Para poder usar esta utilidad desde la terminal se deben seguir las siguientes reglas de uso:
 ```
 Usage:
-    pypdf.py <file> [-o <o_file>] [--reverse]
+    PDFtrimm.py <file> [-o <o_file>] [--reverse]
 
 Options:
     -h --help     Mostrar esta ayuda.
@@ -26,7 +26,7 @@ Donde `<file>` es el archivo de entrada y `<o_file>`  es el parametro opcional q
 
 ### Python
 
-Desde _python_ únicamente se necesita importar la función `trim_file`. Esta necesita dos parametros y tiene uno opcional
+Desde _python_ únicamente se necesita importar la función `trim_file` de `PDFtrimm`. Esta necesita dos parametros y tiene uno opcional
  - `i_name` El nombre de archivo de entrada
  - `o_name` El nombre del archivo de salida
- - `reverse` Parametro de orden del ciclo.
+ - `reverse` Parametro de orden del ciclo [opcional].
